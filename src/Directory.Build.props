@@ -2,6 +2,7 @@
 <Project>
   <PropertyGroup>
     <Authors>Damian Hickey, Logicality B.V.</Authors>
+    <Org>Logicality</Org>
     <DebugType>full</DebugType>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <IsPackable>false</IsPackable>
-    <AssemblyName>Logicality.Lib.Tests</AssemblyName>
-    <RootNamespace>Logicality.Lib</RootNamespace>
+    <AssemblyName>$(Org).Lib.Tests</AssemblyName>
+    <RootNamespace>$(Org).Lib</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
