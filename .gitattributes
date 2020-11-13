@@ -1,6 +1,8 @@
 # Set default behaviour, in case users don't have core.autocrlf set.
 * text=auto
 
+*.sh eol=lf
+
 [attr]utf16 diff merge -lf
 *.ncrunchproject utf16 eol=lf
 
@@ -21,7 +23,6 @@
 *.manifest text
 *.bat text
 *.cmd text
-*.sh text
 *.txt text
 *.dat text
 *.rc text
