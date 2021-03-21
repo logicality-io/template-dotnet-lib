@@ -29,3 +29,6 @@ dotnet add "test\$name.Tests\$name.Tests.csproj" reference "src\$name\$name.cspr
 Update-TextInFile "build.sh" $name.ToLower()
 Update-TextInFile "build.cmd" $name.ToLower()
 Update-TextInFile "build\Program.cs" $name
+Update-TextInFile "test\$name.Tests" $name
+Update-TextInFile "README.md" $name
+Update-TextInFile "src\$name.csproj" $name
