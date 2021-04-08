@@ -1,18 +1,12 @@
 # Lib
 
-_Description goes here._
+This is a template repo used for .NET libraries.
 
-## Packages
+Features
 
-| Name | Package | Description |
-|---|---|---|
-| `Lib` | [![feedz.io][p1]][d1] | Lib package. |
-
-## Using
-
-## Licence
-
-## Contact
-
-[p1]: https://example.com
-[d1]: https://example.com
+- Follows `/src` and `/test` conventions with `Directory.Build.prop` files
+- Build program with `SimpleExec`
+- Versioning with `MinVer`
+- Linux container based builds ( fully portable with CI)
+- Build artifacts stored on host at `/artifacts`
+- GitHub workflows for pull requests and main branch
